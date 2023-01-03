@@ -1,34 +1,36 @@
-[
-  {
-    "id": 1,
-    "customer_name": "John Smith",
-    "items": [
-      {
-        "name": "Widget",
-        "quantity": 2,
-        "price": 5.99
-      },
-      {
-        "name": "Gadget",
-        "quantity": 1,
-        "price": 9.99
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "customer_name": "Jane Doe",
-    "items": [
-      {
-        "name": "Widget",
-        "quantity": 1,
-        "price": 5.99
-      },
-      {
-        "name": "Thingamajig",
-        "quantity": 3,
-        "price": 3.99
-      }
-    ]
-  }
-]
+{
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "John Smith",
+      "items": [
+        {
+          "name": "Widget",
+          "quantity": 2,
+          "price": 5.99
+        },
+        {
+          "name": "Gadget",
+          "quantity": 1,
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer_name": "Jane Doe",
+      "items": [
+        {
+          "name": "Widget",
+          "quantity": 1,
+          "price": 5.99
+        },
+        {
+          "name": "Thingamajig",
+          "quantity": 3,
+          "price": 3.99
+        }
+      ]
+    }
+  ]
+}
