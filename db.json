@@ -1,36 +1,34 @@
-{
-  "products": [
-    {
-      "name": "Unit Link Sekali Bayar",
-      "description": "Manfaat asuransi jiwa seumur hidup dan investasi, dengan opsi <strong><em>top-up</em> premi</strong>",
-      "price": {
-        "amount": 200,
-        "currency": "USD"
+[
+  {
+    "id": 1,
+    "customer_name": "John Smith",
+    "items": [
+      {
+        "name": "Widget",
+        "quantity": 2,
+        "price": 5.99
+      },
+      {
+        "name": "Gadget",
+        "quantity": 1,
+        "price": 9.99
       }
-    },
-    {
-      "name": "Dana Pensiun Mandiri",
-      "description": "Kontribusi bulanan untuk <strong>jaminan pensiun mandiri</strong>",
-      "price": {
-        "amount": 120,
-        "currency": "USD"
+    ]
+  },
+  {
+    "id": 2,
+    "customer_name": "Jane Doe",
+    "items": [
+      {
+        "name": "Widget",
+        "quantity": 1,
+        "price": 5.99
+      },
+      {
+        "name": "Thingamajig",
+        "quantity": 3,
+        "price": 3.99
       }
-    },
-    {
-      "name": "Unit Link Bayar Berkala",
-      "description": "Manfaat asuransi jiwa seumur hidup dan investasi, <strong>dengan pilihan tambahan manfaat</strong>",
-      "price": {
-        "amount": 220,
-        "currency": "USD"
-      }
-    },
-    {
-      "name": "Hospital Cash Plan Premier",
-      "description": "Santunan biaya rumah sakit dengan <strong>manfaat pengembalian premi</strong>",
-      "price": {
-        "amount": 140,
-        "currency": "USD"
-      }
-    }
-  ]
-}
+    ]
+  }
+]
